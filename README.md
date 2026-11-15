@@ -64,3 +64,14 @@ The submitted unit tests verify:
 - Bed status = Occupied → Returns false
 - Bed status = Unavailable → Returns false
 
+## Unit Test Results 
+
+Unit testing was performed using Java and JUnit 5 to verify the checkAvailability() method in the Bed class. Three test cases were executed: TC-1 (Available), TC-2 (Occupied), TC-3 (Unavailable). 
+
+Testing Summary: 
+- Total Tests: 3
+- Passed: 3
+- Failed: 0
+
+All three unit tests passed, confirming that checkAvailability() method correctly identifies bed statuses. 
+
